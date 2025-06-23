@@ -13,7 +13,7 @@ export  function Login () {
 
     const  handleSumbit = (e) => {
         e.preventDefault();
-        navigate("/header" , {state: {name , sureName}});
+        navigate("/header", {state: {name , sureName}});
     }
 
 

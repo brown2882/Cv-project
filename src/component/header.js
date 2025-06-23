@@ -1,9 +1,7 @@
 import "../style/login.scss"
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { useState } from "react";
-import Man from "../assets/image/man.jpg"
-
+import { useLocation , useNavigate } from "react-router-dom";
+import Man from "../assets/image/man.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen } from '@fortawesome/free-solid-svg-icons';
 import {faStore}  from '@fortawesome/free-solid-svg-icons';
@@ -13,8 +11,7 @@ import {faHeart}  from '@fortawesome/free-solid-svg-icons';
 import {faClock}  from '@fortawesome/free-solid-svg-icons';
 import {faMugSaucer}  from '@fortawesome/free-solid-svg-icons';
 import {faStar}  from '@fortawesome/free-solid-svg-icons';
-
-
+import { Link } from 'react-router-dom';
 
 export function Header () {
 
@@ -29,7 +26,12 @@ export function Header () {
       }
     }, [name , sureName]);
     
-  
+
+    ///////////////////////////
+  // const navigate = useNavigate();
+  //  name = location.state?.name || "";
+
+
     return(
         <div className="header">
             
@@ -40,7 +42,7 @@ export function Header () {
               </div>
                <div className="a">
                     <a target="_blank">About me</a>
-                    <a>Resume</a>
+                    <Link to="/resume" state={{name, sureName}}>Resume</Link>
                     <a>Contact</a>
                     
                 </div>
