@@ -41,9 +41,8 @@ export function Header () {
                     <h2>{sureName}</h2>
               </div>
                <div className="a">
-                    <a target="_blank">About me</a>
                     <Link to="/resume" state={{name, sureName}}>Resume</Link>
-                    <a>Contact</a>
+                    <Link to="/contact" state={{name, sureName}}>Contact</Link>
                     
                 </div>
                  

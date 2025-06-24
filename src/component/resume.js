@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export function Resume () {
     const location = useLocation();
-// const name = location.state?.name || "";
+
 const { name, sureName } = location.state || {};
         
 
@@ -23,7 +23,7 @@ const { name, sureName } = location.state || {};
 
                 <div className="resumeA"> 
                     <Link to="/header" state={{name, sureName}}>About me</Link> 
-                    <a>Contact</a>
+                    <Link to="/contact" state={{name, sureName}}>Contact</Link>
                 
                 </div>
 
