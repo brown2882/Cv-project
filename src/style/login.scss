@@ -36,13 +36,13 @@
     padding: 50px 150px;
      background-image: url("../assets/image/backgroundimage.png");
     width: 100%;
-    height: 2200px;
+    height: 70%;
 }
 
 @media (max-width: 768px) {
   .header {
     padding: 5% 5%;
-    height: 3400px; /* allow height to adapt */
+    height: 70%; /* allow height to adapt */
   }
 
  
@@ -71,7 +71,7 @@
     padding-top: 20px;
     
     background-color: #222222;
-    border-radius: 10%;
+    
     width: 100%;
     height: 1800px;
     margin-top: 20px;
@@ -82,7 +82,7 @@
      .navResume{
     
     background-color: #222222;
-    border-radius: 2%;
+    
     width: 450px;
     height: 3300px;
     margin-top: 50px;
@@ -101,9 +101,9 @@
     padding-top: 20px;
     
     background-color: #222222;
-    border-radius: 10%;
+    
     width: 100%;
-    height: 2100px;
+    height: 63%;
     margin-top: 20px;
     color: white;
     
@@ -126,9 +126,9 @@
      .nav{
     
     background-color: #222222;
-    border-radius: 2%;
+    
     width: 450px;
-    height: 3300px;
+    height: 63%;
     margin-top: 50px;
     color: white;
     // justify-content: center;
@@ -254,13 +254,13 @@
     display: flex;
 
     p {
-        margin-top: 20px;
+        margin-top: 10px;
         max-width: 600px;
     }
 }
 
 .faPenicon{
-    margin: 30px;
+    margin: 2%;
     height: 40px;
 }
 
@@ -280,13 +280,13 @@
 
 
 .globalIconDivTwo{
-    margin-top: 60px;
+    margin-top: 4%;
     display: flex;
 }
 
 @media (max-width: 768px) {
      .globalIconDivTwo{
-    margin-top: 40px;
+    margin-top: 4%;
     display: block;
   }
 }
@@ -325,21 +325,7 @@
 }
 
 
-.priceDivOne{
-    margin-left: 40px;
-    margin-right: 40px;
-    text-align: center;
-    
-    width: 350px;
-    height: 370px;
-    border-radius: 10%;
-    background-color: #333333;
-    transition: transform 0.3s ease;
-}
 
-.priceDivOne:hover {
-  transform: translateY(-3px);
-}
 
 
  .bgtnTree{
@@ -371,20 +357,35 @@
 .PricingDiv{
     display: flex;
 }
-@media (max-width: 768px) {
-     .PricingDiv{
-    margin-top: 80px;
-    display: block;
-  }
+
+
+
+.priceDivOne{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    
+    width: 25%;
+    height: 20%;
+    border-radius: 10%;
+    background-color: #333333;
+    transition: transform 0.3s ease;
 }
+
+.priceDivOne:hover {
+  transform: translateY(-3px);
+}
+
+
+
 
 .priceDivTwo{
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
     
-    width: 350px;
-    height: 420px;
+    width: 25%;
+    height: 20%;
     border-radius: 10%;
     background-color: #333333;
     transition: transform 0.3s ease;
@@ -393,6 +394,91 @@
 .priceDivTwo:hover {
   transform: translateY(-3px);
 }
+
+
+
+
+.priceDivTree{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    
+    width: 25%;
+    height: 20%;
+    border-radius: 10%;
+    background-color: #333333;
+    transition: transform 0.3s ease;
+}
+
+.priceDivTree:hover {
+  transform: translateY(-3px);
+}
+
+
+
+@media (max-width: 768px) {
+     .PricingDiv{
+            margin-top: 8%;
+            display: block;
+        }
+
+    .priceDivOne{
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    
+        width: 75%;
+        height: 23%;
+        border-radius: 10%;
+        background-color: #333333;
+        transition: transform 0.3s ease;
+    }
+
+    .priceDivTwo{
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+        margin-top: 5%;
+        width: 75%;
+        height: 23%;
+        border-radius: 10%;
+        background-color: #333333;
+        transition: transform 0.3s ease;
+    }
+
+    .priceDivTree{
+         margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+        margin-top: 5%;
+        width: 75%;
+        height: 23%;
+        border-radius: 10%;
+        background-color: #333333;
+        transition: transform 0.3s ease;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bgtnFour{
         padding: 15px 18px;
@@ -410,28 +496,14 @@
 
 
 
-.priceDivTree{
-    margin-left: 40px;
-    margin-right: 40px;
-    text-align: center;
-    
-    width: 350px;
-    height: 460px;
-    border-radius: 10%;
-    background-color: #333333;
-    transition: transform 0.3s ease;
-}
-
-.priceDivTree:hover {
-  transform: translateY(-3px);
-}
-
 .hrr{
     margin-top: 50px;
 }
-.p20{
+.copyright{
     text-align: right;
     margin-top: 20px;
+    font-size: 14px;
+    padding-bottom: 10px;
     margin-right: 20px;
 }
 
@@ -603,7 +675,8 @@
         max-width: 1300px;
 }
 
-.lastP{
+.copyrightResume{
+      font-size: 14px;
     float: right;
     margin-top: 80px;
     margin-right: 80px;

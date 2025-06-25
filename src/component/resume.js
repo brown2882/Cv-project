@@ -130,7 +130,7 @@ const { name, sureName } = location.state || {};
 
                 <>
                     <hr className="href"/>
-                    <p className="lastP">© 2020 All rights reserved. LMPixels.</p>
+                    <p className="copyrightResume">© 2020 All rights reserved. LMPixels.</p>
                 </>
             </div>
         </div>

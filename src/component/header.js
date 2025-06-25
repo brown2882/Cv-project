@@ -187,7 +187,7 @@ export function Header () {
 
                 <hr className="hrr"/>
 
-                <p className="p20">© 2020 All rights reserved. LMPixels.</p>
+                <p className="copyright">© 2020 All rights reserved. LMPixels.</p>
                   
             </nav>
 
