@@ -14,12 +14,12 @@ export function Contact () {
     return(
        <div className="contactHeader">
             
-            <nav className="contactNav">
+            <div className="contactNav">
 
-                <div className="nameeDiv">
+                <nav className="nameeDiv">
                     <h1>{name}</h1>
                     <h1>{sureName}</h1>
-                </div>
+                </nav>
 
                 <div className="resumeA"> 
                     <Link to="/header" state={{name, sureName}}>About me</Link> 
@@ -41,7 +41,7 @@ export function Contact () {
 
                 <ContractFooter/>
 
-            </nav>
+            </div>
         </div>
     )
 }

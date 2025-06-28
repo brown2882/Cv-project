@@ -39,33 +39,12 @@
     height: 70%;
 }
 
-@media (max-width: 768px) {
-  .header {
-    padding: 5% 5%;
-    height: 70%; /* allow height to adapt */
-  }
-
- 
-}
-
-
 .headerResume{
      padding: 50px 150px;
      background-image: url("../assets/image/backgroundimage.png");
     width: 100%;
     height: 1900px;
 }
-
-
-@media (max-width: 768px) {
-  .headerResume {
-    padding: 5% 5%;
-    height: 3400px; /* allow height to adapt */
-  }
-
- 
-}
-
 
 .navResume{
     padding-top: 20px;
@@ -78,26 +57,7 @@
     color: white;
 }
 
-@media (max-width: 768px) {
-     .navResume{
-    
-    background-color: #222222;
-    
-    width: 450px;
-    height: 3300px;
-    margin-top: 50px;
-    color: white;
-    // justify-content: center;
-  }
-
-  
-
-}
-
-
-
-
-.nav{
+.headerDivv{
     padding-top: 20px;
     
     background-color: #222222;
@@ -122,21 +82,7 @@
     // justify-content: center;
 }
 
-@media (max-width: 768px) {
-     .nav{
-    
-    background-color: #222222;
-    
-    width: 450px;
-    height: 63%;
-    margin-top: 50px;
-    color: white;
-    // justify-content: center;
-  }
 
-  
-
-}
 
 .a{
     float: right;
@@ -191,17 +137,7 @@
     border-radius: 40%;
 }
 
-@media (max-width: 768px) {
-     .man{
-        margin-top: 40px;
-        width: 100px;
-    border-radius: 40%;
-   
-  }
 
-  
-
-}
 
 
 .btnDiv{
@@ -210,7 +146,7 @@
 
     button{
         padding: 15px 18px;
-        border-radius: 30%;
+        // border-radius: 30%;
         background-color: transparent;
         color: white;
         border-color: white;
@@ -268,31 +204,6 @@
     display: flex;
 }
 
-@media (max-width: 768px) {
-     .globalIconDiv{
-    
-    display: block;
-  }
-}
-
-
-
-
-
-.globalIconDivTwo{
-    margin-top: 4%;
-    display: flex;
-}
-
-@media (max-width: 768px) {
-     .globalIconDivTwo{
-    margin-top: 4%;
-    display: block;
-  }
-}
-
-
-
 
 .funDivOne{
     margin-left: 10px;
@@ -330,7 +241,7 @@
 
  .bgtnTree{
         padding: 15px 18px;
-        border-radius: 30%;
+        
         background-color: transparent;
         color: white;
         border-color: white;
@@ -343,18 +254,18 @@
             }
 
 
-.k{
+.priceTwoP{
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.kk{
+.pricsOneP{
     padding-top: 20px;
     margin-bottom: 10px;
     color: gray;
 }
 
-.PricingDiv{
+.section{
     display: flex;
 }
 
@@ -411,78 +322,12 @@
 }
 
 .priceDivTree:hover {
-  transform: translateY(-3px);
+     transform: translateY(-3px);
 }
-
-
-
-@media (max-width: 768px) {
-     .PricingDiv{
-            margin-top: 8%;
-            display: block;
-        }
-
-    .priceDivOne{
-        margin-left: 40px;
-        margin-right: 40px;
-        text-align: center;
-    
-        width: 75%;
-        height: 23%;
-        border-radius: 10%;
-        background-color: #333333;
-        transition: transform 0.3s ease;
-    }
-
-    .priceDivTwo{
-        margin-left: 40px;
-        margin-right: 40px;
-        text-align: center;
-        margin-top: 5%;
-        width: 75%;
-        height: 23%;
-        border-radius: 10%;
-        background-color: #333333;
-        transition: transform 0.3s ease;
-    }
-
-    .priceDivTree{
-         margin-left: 40px;
-        margin-right: 40px;
-        text-align: center;
-        margin-top: 5%;
-        width: 75%;
-        height: 23%;
-        border-radius: 10%;
-        background-color: #333333;
-        transition: transform 0.3s ease;
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .bgtnFour{
         padding: 15px 18px;
-        border-radius: 30%;
+        // border-radius: 30%;
         background-color: transparent;
         color: white;
         border-color: #009BDB;
@@ -554,9 +399,8 @@
     }
 
 .hrTwo{
-     color: gray;
-        margin: 3px 5px;
-        max-width: 1300px;
+    color: gray;
+    max-width: 1300px;
 }
 
 .educationDiv{
@@ -650,11 +494,7 @@
         
     }
 
-    @media (max-width: 1100px) {
-    .progress {
-    width: 300px;
-
-    }}
+    
 
 
 .codingDiv{
@@ -685,4 +525,127 @@
 .divIcon{
     margin-top: 80px;
 }
+
+
+.globalIconDivTwo{
+    margin-top: 4%;
+    display: flex;
+}
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .progress {
+    width: 300px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+     .navResume{
+    
+    background-color: #222222;
+    
+    width: 450px;
+    height: 3300px;
+    margin-top: 50px;
+    color: white;
+    // justify-content: center;
+  }
+
+    .header {
+    padding: 5% 5%;
+    height: 70%; /* allow height to adapt */
+  }
+
+
+  .headerResume {
+    padding: 5% 5%;
+    height: 3400px; /* allow height to adapt */
+  }
+
+   .globalIconDiv{
+    
+    display: block;
+  }
+
+   .man{
+        margin-top: 40px;
+        width: 100px;
+    border-radius: 40%;
+   
+  }
+
+    .headerDivv{
+    
+    background-color: #222222;
+    
+    width: 450px;
+    height: 63%;
+    margin-top: 50px;
+    color: white;
+    // justify-content: center;
+  }
+
+   .globalIconDivTwo{
+    margin-top: 4%;
+    display: block;
+  }
+
+  .PricingDiv{
+            margin-top: 8%;
+            display: block;
+        }
+
+    .priceDivOne{
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    
+        width: 75%;
+        height: 23%;
+        border-radius: 10%;
+        background-color: #333333;
+        transition: transform 0.3s ease;
+    }
+
+    .priceDivTwo{
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+        margin-top: 5%;
+        width: 75%;
+        height: 23%;
+        border-radius: 10%;
+        background-color: #333333;
+        transition: transform 0.3s ease;
+    }
+
+    .priceDivTree{
+         margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+        margin-top: 5%;
+        width: 75%;
+        height: 23%;
+        border-radius: 10%;
+        background-color: #333333;
+        transition: transform 0.3s ease;
+    }
+
+
+
+
+
+
+}
+
+
+
+
 

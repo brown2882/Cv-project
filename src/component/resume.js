@@ -16,10 +16,10 @@ const { name, sureName } = location.state || {};
     return(
         <div className="headerResume">
             <div className="navResume">
-                <div className="nameDiv">
+                <nav className="nameDiv">
                     <h1>{name}</h1>
                     <h1>{sureName}</h1>
-                </div>
+                </nav>
 
                 <div className="resumeA"> 
                     <Link to="/header" state={{name, sureName}}>About me</Link> 

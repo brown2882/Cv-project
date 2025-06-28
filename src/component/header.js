@@ -34,12 +34,11 @@ export function Header () {
 
     return(
         <div className="header">
-            
-            <nav className="nav">
-              <div className="navOne">
+            <div className="headerDivv">
+              <nav className="navOne">
                     <h2>{name}</h2>
                     <h2>{sureName}</h2>
-              </div>
+              </nav>
                <div className="a">
                     <Link to="/resume" state={{name, sureName}}>Resume</Link>
                     <Link to="/contact" state={{name, sureName}}>Contact</Link>
@@ -147,49 +146,49 @@ export function Header () {
 
                 <h2 className="h22">Pricing</h2>
                   <hr className="hr"/>
-                <div className="PricingDiv">
+                <section className="section">
                   <div className="priceDivOne">
-                        <p className="kk">Silver</p>
-                        <h2 className="k">$64</h2>
-                        <p className="kk">per mounth</p>
+                        <h2 className="pricsOneP">Silver</h2>
+                        <span className="k">$64</span>
+                        <p className="pricsOneP">per mounth</p>
                         <button className="bgtnTree">Contact</button>
                         
-                        <p className="k">Lorem ipsum dolor</p>
-                        <p className="k">Pellentesque scelerisque</p>
-                        <p className="k">Morbi eu sagittis</p>
+                        <p className="priceTwoP">Lorem ipsum dolor</p>
+                        <p className="priceTwoP">Pellentesque scelerisque</p>
+                        <p className="priceTwoP">Morbi eu sagittis</p>
                   </div>
 
                     <div className="priceDivTwo">
-                        <p className="kk">Gold</p>
-                        <h2 className="k">$128</h2>
-                        <p className="kk">per mounth</p>
+                        <h2 className="pricsOneP">Gold</h2>
+                        <span className="priceTwoP">$128</span>
+                        <p className="pricsOneP">per mounth</p>
                         <button className="bgtnFour">Contact</button>
                         
-                        <p className="k">Lorem ipsum dolor</p>
-                        <p className="k">Pellentesque scelerisque</p>
-                        <p className="k">Morbi eu sagittis</p>
-                        <p className="k">Donec non diam</p>
+                        <p className="priceTwoP">Lorem ipsum dolor</p>
+                        <p className="priceTwoP">Pellentesque scelerisque</p>
+                        <p className="priceTwoP">Morbi eu sagittis</p>
+                        
                   </div>
 
                    <div className="priceDivTree">
-                        <p className="kk">Platinum</p>
-                        <h2 className="k">$256</h2>
-                        <p className="kk">per mounth</p>
+                        <h2 className="pricsOneP">Platinum</h2>
+                        <span className="priceTwoP">$256</span>
+                        <p className="pricsOneP">per mounth</p>
                         <button className="bgtnFour">Contact</button>
                         
-                        <p className="k">Lorem ipsum dolor</p>
-                        <p className="k">Pellentesque scelerisque</p>
-                        <p className="k">Morbi eu sagittis</p>
-                        <p className="k">Donec non diam</p>
-                        <p className="k">Aenean nec libero</p>
+                        <p className="priceTwoP">Lorem ipsum dolor</p>
+                        <p className="priceTwoP">Pellentesque scelerisque</p>
+                        <p className="priceTwoP">Morbi eu sagittis</p>
+                        
+                        
                   </div>
-                </div>
+                </section>
 
                 <hr className="hrr"/>
 
                 <p className="copyright">© 2020 All rights reserved. LMPixels.</p>
                   
-            </nav>
+            </div>
 
            
              

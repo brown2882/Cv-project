@@ -13,16 +13,6 @@
     height: 1500px;
 }
 
-@media (max-width: 768px) {
-  .contactHeader {
-    padding: 5% 5%;
-    height: 2200px; /* allow height to adapt */
-  }
-
- 
-}
-
-
 .contactNav{
     padding-top: 20px;
     
@@ -39,21 +29,7 @@
 }
 
 
-@media (max-width: 768px) {
-     .contactNav{
-    
-    background-color: #222222;
-   
-    width: 450px;
-    height: 2100px;
-    margin-top: 50px;
-    color: white;
- 
-  }
 
-  
-
-}
 
 
 .nameeDiv{
@@ -132,7 +108,7 @@
     color: white;
     margin-top: 30px;
     border-color: #009BDB;
-    border-radius: 30%;
+    // border-radius: 30%;
 }
 
 .footerMessage{
@@ -143,4 +119,26 @@
     background-color: #222222;
     border-style: dotted;
     color: white;
+}
+
+
+
+@media (max-width: 768px) {
+  .contactHeader {
+    padding: 5% 5%;
+    height: 2200px; /* allow height to adapt */
+  }
+
+     .contactNav{
+    
+    background-color: #222222;
+   
+    width: 450px;
+    height: 2100px;
+    margin-top: 50px;
+    color: white;
+ 
+  }
+
+ 
 }
